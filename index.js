@@ -1,4 +1,4 @@
-a = [2,1,3,5,3,2]
+a = [2,1,7,5,3]
 
 const firstDuplicate = arr => {
   const memory = {};
@@ -11,7 +11,7 @@ const firstDuplicate = arr => {
     }
   }
 
-  return -1;
+  return "There are no duplicates."
 };
 
 firstDuplicate(a);
